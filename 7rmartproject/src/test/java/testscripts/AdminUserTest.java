@@ -51,7 +51,6 @@ public class AdminUserTest extends Base {
 		adminuserpage.clickOnNewButton();
 	}
 	
-	
 	@Test(groups="smoke")
 	public void verify()
 	{
