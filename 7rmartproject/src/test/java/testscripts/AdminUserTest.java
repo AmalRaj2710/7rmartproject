@@ -51,13 +51,7 @@ public class AdminUserTest extends Base {
 		adminuserpage.clickOnNewButton();
 	}
 	
-	@Test(groups="smoke")
-	public void ExcelCheck()
-	{
-		ExcelReader excelreader=new ExcelReader();
-		excelreader.setExcelFile("LoginData");
-		System.out.println(excelreader.getCellData(0, 0));
-	}
+	
 	@Test(groups="smoke")
 	public void verify()
 	{
