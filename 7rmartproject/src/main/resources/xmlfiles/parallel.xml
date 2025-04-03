@@ -1,0 +1,15 @@
+<suite name="regression">
+<listeners>
+<listener class-name="listeners.ExtentReporter"/>
+</listeners>
+<test name="execution">
+<classes>
+<class name="testScripts.LoginTest"> </class>
+</classes>
+</test>
+<test name="execution">
+<classes>
+<class name="testScripts.AdminUserTest"> </class>
+</classes>
+</test>
+</suite>
